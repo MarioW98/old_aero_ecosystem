@@ -1,7 +1,28 @@
+# Byte-compiled / cache
 __pycache__/
 *.py[cod]
 *.pyc
 *.pyo
 *.pyd
 
+# Log runtime (artefatti locali, mai in versionamento)
+*.log
+sim_console.log
+
+# Ambienti virtuali
+.venv/
+venv/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE
 .vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

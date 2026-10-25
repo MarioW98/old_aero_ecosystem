@@ -20,7 +20,3 @@ dev = [
     "black",
     "flake8",
 ]
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"

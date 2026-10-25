@@ -1,5 +1,7 @@
 # AeroControlQwen — aero-ecosystem
 
+[![Tests](https://github.com/MarioW98/old_aero_ecosystem/actions/workflows/tests.yml/badge.svg)](https://github.com/MarioW98/old_aero_ecosystem/actions/workflows/tests.yml)
+
 **Ecosistema aerospaziale per simulazione di volo, controllo e calibrazione automatica.**
 
 Un ambiente integrato che comprende un simulatore di volo a sei gradi di libertà, una Ground Control Station con strumenti di cockpit, un flight controller con sintesi automatica dei guadagni, e un'infrastruttura di comunicazione real-time. Progettato per essere estendibile a diverse configurazioni di velivolo.
@@ -225,7 +227,23 @@ Il simulatore viene lanciato come processo separato e comunicato via ZeroMQ. La 
 
 ## Test
 
-Ogni componente del flight controller ha test autonomi che verificano proprietà strutturali e comportamentali. I test non richiedono framework esterni e stampano un esito leggibile.
+Ogni componente del flight controller ha test autonomi che verificano proprietà strutturali e comportamentali. I test non richiedono framework esterni e stampano un esito leggibile (PASS/FAIL, exit code corretto).
+
+### Suite completa (consigliato)
+
+Dalla radice del repository:
+
+```bash
+python run_tests.py                    # tutta la suite (~26 test, ~1 min)
+python run_tests.py --list             # elenca i test senza eseguirli
+python run_tests.py --filter synthesis # solo i test con "synthesis" nel nome
+python run_tests.py --skip-long        # salta lo smoke test end-to-end ZMQ
+python run_tests.py --verbose          # output completo di ogni test
+```
+
+Il runner termina con exit code `0` se tutti i test passano, `1` altrimenti, e stampa un riepilogo con i tempi di esecuzione. Su Linux imposta automaticamente `QT_QPA_PLATFORM=offscreen` per eseguire i test Qt in ambienti headless.
+
+### Singolo test
 
 ```bash
 python simulator/test_rate_controller.py
@@ -236,6 +254,20 @@ python simulator/test_synthesis.py
 python simulator/test_gain_scheduler.py
 python simulator/test_sysid.py
 ```
+
+### Tool demo (manuali, non nel CI)
+
+Questi script aprono finestre Qt o pubblicano telemetria in loop: servono per ispezione visiva, non per verifica automatica.
+
+```bash
+python tools/test_dialog_standalone.py    # dialog strumenti a schermo
+python tools/test_sim_launch_dialog.py    # dialog di lancio simulazione
+python tools/test_publisher.py            # publisher telemetria finti-dati
+```
+
+### Integrazione continua
+
+Il workflow `.github/workflows/tests.yml` esegue `run_tests.py` su **Ubuntu e Windows** (Python 3.12) a ogni push su `main`, a ogni pull request e su richiesta manuale dalla tab *Actions*. I tool demo interattivi sono esclusi; il test end-to-end ZMQ è incluso come smoke test.
 
 ---
 

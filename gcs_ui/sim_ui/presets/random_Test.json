@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "snap_enabled": true,
+  "grid_size": 20.0,
+  "theme_id": "base",
+  "instruments": [
+    {
+      "instance_id": "4bd69a52-a7c7-473f-a3c7-65a51c33f81f",
+      "type_id": "adv-pfd",
+      "x": -480.0,
+      "y": -360.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "airspeed_unit": "ms",
+        "altitude_unit": "m"
+      }
+    },
+    {
+      "instance_id": "1bb00785-3f37-4571-8207-84503816ceb4",
+      "type_id": "comfort-turn-coord",
+      "x": -420.0,
+      "y": 200.0,
+      "rotation": 0.0,
+      "scale": 0.81,
+      "z": 2.0,
+      "state": {
+        "target_rate": 3.0,
+        "palette_key": "orange"
+      }
+    },
+    {
+      "instance_id": "8b5f5c77-835e-44bc-b24e-44836d209a19",
+      "type_id": "view-heading-tape",
+      "x": -120.0,
+      "y": 300.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 3.0
+    },
+    {
+      "instance_id": "52cc488f-8d8d-4e39-8287-5a29a8d58cde",
+      "type_id": "flight-airspeed-pro",
+      "x": -440.0,
+      "y": -360.0,
+      "rotation": 0.0,
+      "scale": 0.7217100000000002,
+      "z": 1.0,
+      "state": {
+        "unit_id": "ms"
+      }
+    }
+  ]
+}

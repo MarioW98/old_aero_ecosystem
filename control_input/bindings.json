@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "bindings": {
+    "throttle_up": {
+      "action": "throttle_up",
+      "source_type": "keyboard",
+      "source_id": 87,
+      "axis_direction": 0
+    },
+    "throttle_down": {
+      "action": "throttle_down",
+      "source_type": "keyboard",
+      "source_id": 83,
+      "axis_direction": 0
+    },
+    "pitch_up": {
+      "action": "pitch_up",
+      "source_type": "keyboard",
+      "source_id": 16777235,
+      "axis_direction": 0
+    },
+    "pitch_down": {
+      "action": "pitch_down",
+      "source_type": "keyboard",
+      "source_id": 16777237,
+      "axis_direction": 0
+    },
+    "roll_left": {
+      "action": "roll_left",
+      "source_type": "keyboard",
+      "source_id": 16777234,
+      "axis_direction": 0
+    },
+    "roll_right": {
+      "action": "roll_right",
+      "source_type": "keyboard",
+      "source_id": 16777236,
+      "axis_direction": 0
+    },
+    "yaw_left": {
+      "action": "yaw_left",
+      "source_type": "keyboard",
+      "source_id": 65,
+      "axis_direction": 0
+    },
+    "yaw_right": {
+      "action": "yaw_right",
+      "source_type": "keyboard",
+      "source_id": 68,
+      "axis_direction": 0
+    },
+    "pause": {
+      "action": "pause",
+      "source_type": "keyboard",
+      "source_id": 80,
+      "axis_direction": 0
+    },
+    "reset": {
+      "action": "reset",
+      "source_type": "keyboard",
+      "source_id": 82,
+      "axis_direction": 0
+    }
+  }
+}

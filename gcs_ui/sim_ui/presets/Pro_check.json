@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "snap_enabled": true,
+  "grid_size": 20.0,
+  "theme_id": "night",
+  "instruments": [
+    {
+      "instance_id": "78e0b52e-0201-40fa-a10d-44503c2574bd",
+      "type_id": "flight-airspeed-pro",
+      "x": -340.0,
+      "y": -160.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "unit_id": "ms"
+      }
+    },
+    {
+      "instance_id": "384a0cc1-ef31-41c4-a78d-f0e4c4320235",
+      "type_id": "flight-altimeter-pro",
+      "x": 160.0,
+      "y": -160.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "unit_id": "m"
+      }
+    },
+    {
+      "instance_id": "258112ed-cc76-4485-b1ca-e5ed051638d8",
+      "type_id": "flight-turn-coord-pro",
+      "x": -100.0,
+      "y": 80.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "target_rate": 3.0
+      }
+    },
+    {
+      "instance_id": "eae01998-f9d9-4657-8238-72804dbfa9cf",
+      "type_id": "nav-heading-pro",
+      "x": -340.0,
+      "y": 80.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0
+    },
+    {
+      "instance_id": "cfecf415-4ff4-4998-be03-a3635ed7f7a3",
+      "type_id": "flight-vsi-pro",
+      "x": 160.0,
+      "y": 80.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "unit_id": "ms"
+      }
+    },
+    {
+      "instance_id": "6e9f45ab-98a2-43e9-9446-4091098a2deb",
+      "type_id": "adv-sq-attitude",
+      "x": -120.0,
+      "y": -180.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "unit_id": "ms"
+      }
+    }
+  ]
+}

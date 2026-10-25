@@ -1,0 +1,2 @@
+PySide6>=6.5.0
+# Python richiesto: >= 3.12 (vedi pyproject.toml)

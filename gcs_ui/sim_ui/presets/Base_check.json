@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "snap_enabled": true,
+  "grid_size": 20.0,
+  "theme_id": "base",
+  "instruments": [
+    {
+      "instance_id": "7221c92b-e902-40c4-acba-3dcce5d96973",
+      "type_id": "nav-heading",
+      "x": -440.0,
+      "y": 0.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0
+    },
+    {
+      "instance_id": "86dc58ec-a9da-4baf-a9c7-883d30d20008",
+      "type_id": "flight-turn-coord",
+      "x": -220.0,
+      "y": 20.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "target_rate": 2.0
+      }
+    },
+    {
+      "instance_id": "315c9d71-fe88-4f92-a6b5-9718e9980f0c",
+      "type_id": "flight-attitude-square",
+      "x": 0.0,
+      "y": 0.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0
+    },
+    {
+      "instance_id": "3095ff09-bebd-4112-8af8-5d348ed4ca82",
+      "type_id": "flight-attitude-full",
+      "x": 260.0,
+      "y": -240.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0
+    },
+    {
+      "instance_id": "3f5a93e7-4fcd-406a-ba66-3aefaa341dc4",
+      "type_id": "flight-attitude",
+      "x": 0.0,
+      "y": -220.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0
+    },
+    {
+      "instance_id": "f97c638b-8ba3-4d3f-87f5-7aab5e7b4d37",
+      "type_id": "flight-airspeed",
+      "x": -460.0,
+      "y": -220.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "unit_id": "ms"
+      }
+    },
+    {
+      "instance_id": "859837f4-0776-4015-a81d-16b11c2e6b69",
+      "type_id": "flight-altimeter",
+      "x": -220.0,
+      "y": -220.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "unit_id": "m"
+      }
+    }
+  ]
+}

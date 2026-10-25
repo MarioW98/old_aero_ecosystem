@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "snap_enabled": true,
+  "grid_size": 20.0,
+  "theme_id": "night",
+  "instruments": [
+    {
+      "instance_id": "21c98cda-e563-4d15-a6a9-5b94a0d9b637",
+      "type_id": "comfort-vsi",
+      "x": 100.0,
+      "y": 0.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "unit_id": "ms",
+        "palette_key": "orange"
+      }
+    },
+    {
+      "instance_id": "5fb2e22b-165f-4def-b200-9ae1a8959ce8",
+      "type_id": "comfort-turn-coord",
+      "x": -100.0,
+      "y": 0.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "target_rate": 5.5,
+        "palette_key": "orange"
+      }
+    },
+    {
+      "instance_id": "5c68995e-2bde-4f17-b9be-2d1da8c64a49",
+      "type_id": "comfort-heading",
+      "x": -300.0,
+      "y": 0.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "palette_key": "orange"
+      }
+    },
+    {
+      "instance_id": "51fced5b-6b77-4834-a68a-c37b616c3b36",
+      "type_id": "comfort-altimeter",
+      "x": 100.0,
+      "y": -200.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "unit_id": "m",
+        "palette_key": "orange"
+      }
+    },
+    {
+      "instance_id": "d6c22cc7-af25-46ca-98fa-331ff1dc8653",
+      "type_id": "comfort-airspeed",
+      "x": -300.0,
+      "y": -200.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0,
+      "state": {
+        "unit_id": "ms",
+        "palette_key": "orange"
+      }
+    }
+  ]
+}

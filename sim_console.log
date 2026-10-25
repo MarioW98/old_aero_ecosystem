@@ -1,0 +1,33 @@
+Project root: D:\MAIN\05 - Lavoro\Drone\UAV\AeroControlQwen\aero-ecosystem
+ROOT: D:\MAIN\05 - Lavoro\Drone\UAV\AeroControlQwen\aero-ecosystem
+PYTHON: C:\Users\count\AppData\Local\Programs\Python\Python312\python.exe
+--- Avvio richiesto ---
+--- SIMULATORE AVVIATO ---
+  Inizializzazione Flight Controller...
+    roll  : [OK]  Kp=0.7304  Ki=7.1811  Kd=0.01131
+    pitch : [OK]  Kp=1.0724  Ki=6.6268  Kd=0.01044
+    yaw   : [OK]  Kp=3.2401  Ki=18.4657  Kd=0.02909
+============================================================
+SIMULATORE DI VOLO — AeroControlQwen
+============================================================
+  Endpoint telemetria: tcp://*:5555
+  Endpoint comandi:    tcp://127.0.0.1:5556 (SUB)
+  Frequenza:           50 Hz
+  Velivolo:            C172
+  Quota iniziale:      0 m
+  Velocità iniziale:   45.0 m/s
+  Flight Controller:   ACTIVE (STABILIZE)
+    Pitch: Kp=1.0724  Ki=6.6268  Kd=0.01044
+    Roll:  Kp=0.7304  Ki=7.1811  Kd=0.01131
+    Yaw:   Kp=3.2401  Ki=18.4657  Kd=0.02909
+    Trim:  de=-0.0448 rad
+============================================================
+Controlli dalla GCS: W/S throttle, frecce pitch/roll, A/D yaw
+Premi Ctrl+C per terminare.
+  t=    1.0s  [FC ] [DEF]  quota=    0.4m  V= 44.5m/s  VS=+0.73m/s  THR=0.90
+  t=    2.0s  [FC ] [DEF]  quota=    1.4m  V= 44.0m/s  VS=+1.29m/s  THR=0.90
+  t=    3.0s  [FC ] [DEF]  quota=    3.0m  V= 43.3m/s  VS=+1.78m/s  THR=0.90
+  t=    4.0s  [FC ] [DEF]  quota=    5.0m  V= 42.6m/s  VS=+2.13m/s  THR=0.90
+  t=    5.0s  [FC ] [DEF]  quota=    7.2m  V= 41.7m/s  VS=+2.35m/s  THR=0.90
+  t=    6.0s  [FC ] [DEF]  quota=    9.6m  V= 40.9m/s  VS=+2.42m/s  THR=0.90
+  t=    7.0s  [FC ] [DEF]  quota=   12.0m  V= 40.0m/s  VS=+2.35m/s  THR=0.90

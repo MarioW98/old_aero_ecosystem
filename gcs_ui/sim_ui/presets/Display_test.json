@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "snap_enabled": true,
+  "grid_size": 20.0,
+  "theme_id": "night",
+  "instruments": [
+    {
+      "instance_id": "dd6fba46-4ba0-446c-93ab-9a30ed9369fc",
+      "type_id": "comfort-heading",
+      "x": -120.0,
+      "y": 120.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 3.0,
+      "state": {
+        "palette_key": "orange"
+      }
+    },
+    {
+      "instance_id": "73cf154f-d2a0-4f1d-8b8f-280a1e2603f0",
+      "type_id": "view-altimeter-tape",
+      "x": 340.0,
+      "y": -80.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 2.0,
+      "state": {
+        "unit_id": "m"
+      }
+    },
+    {
+      "instance_id": "4630aad8-abda-4fb5-be67-c168d4211ce3",
+      "type_id": "view-airspeed-tape",
+      "x": -500.0,
+      "y": -80.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 1.0,
+      "state": {
+        "unit_id": "kt"
+      }
+    },
+    {
+      "instance_id": "c017f259-a17c-48de-8446-6338bf7201a5",
+      "type_id": "display-viewport",
+      "x": -500.0,
+      "y": -320.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 0.0
+    },
+    {
+      "instance_id": "7563b67e-7405-4605-9e7d-dcda8f4f7f5a",
+      "type_id": "view-heading-tape",
+      "x": -140.0,
+      "y": -320.0,
+      "rotation": 0.0,
+      "scale": 1.0,
+      "z": 4.0
+    }
+  ]
+}
